@@ -53,7 +53,7 @@ $('#addUser').on('click', function(e) {
 		url: 'http://reqr.es/api/users',
 		//lets us pass specific information to the API. this object is going to be whatever we passed into the name input field and job input field
 		data: {name: userName, job: userJob},
-		//inside success function, make some html to add into our DOM. this is saying if our data posts successfully, send us back this data and display it so we know
+		//inside success function, make some html to add into our DOM. this is saying if our data posts successfully, send us back this data and display it so we know¡
 		success: function(res) {
 			$('#recentUser').html(
 				'<li>' +
